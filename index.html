@@ -15,7 +15,7 @@
     <a-scene embedded arjs="debugUIEnabled:false;">
 
       <!-- マーカーを登録（プリセットされている「hiro」マーカー） -->
-      <a-marker preset="hiro">
+      <a-marker type='pattern' url='pattern.patt'>
         <!-- マーカーの場所にOBJ -->
         <a-obj-model id="gundam" src="model.obj" mtl="materials.mtl"></a-obj-model>
       </a-marker>
