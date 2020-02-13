@@ -3,24 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>A-Frame ‚Å’´ŠÈ’P AR</title>
+    <title>GundamAR</title>
   </head>
   <body style="margin:0px; overflow:hidden;">
-    <!-- A-Frame ƒ‰ƒCƒuƒ‰ƒŠ‚Ì“Ç‚Ýž‚Ý -->
+    <!-- A-Frame ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®èª­ã¿è¾¼ã¿ -->
     <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
-    <!-- AR.js ƒ‰ƒCƒuƒ‰ƒŠ‚Ì“Ç‚Ýž‚Ý -->
+    <!-- AR.js ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®èª­ã¿è¾¼ã¿ -->
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
-    <!-- A-Frame ‚Ì VR‹óŠÔ‚É AR.js ‚ð•R‚Ã‚¯‚éiƒfƒoƒbƒOUI‚Í”ñ•\Ž¦j -->
+    <!-- A-Frame ã® VRç©ºé–“ã« AR.js ã‚’ç´ã¥ã‘ã‚‹ï¼ˆãƒ‡ãƒãƒƒã‚°UIã¯éžè¡¨ç¤ºï¼‰ -->
     <a-scene embedded arjs="debugUIEnabled:false;">
 
-      <!-- ƒ}[ƒJ[‚ð“o˜^iƒvƒŠƒZƒbƒg‚³‚ê‚Ä‚¢‚éuhirovƒ}[ƒJ[j -->
+      <!-- ãƒžãƒ¼ã‚«ãƒ¼ã‚’ç™»éŒ²ï¼ˆãƒ—ãƒªã‚»ãƒƒãƒˆã•ã‚Œã¦ã„ã‚‹ã€Œhiroã€ãƒžãƒ¼ã‚«ãƒ¼ï¼‰ -->
       <a-marker preset="hiro">
-        <!-- ƒ}[ƒJ[‚ÌêŠ‚ÉOBJ -->
+        <!-- ãƒžãƒ¼ã‚«ãƒ¼ã®å ´æ‰€ã«OBJ -->
         <a-obj-model id="gundam" src="model.obj" mtl="materials.mtl"></a-obj-model>
       </a-marker>
 
-      <!-- AR—p‚ÌƒJƒƒ‰‚ð’u‚­ -->
+      <!-- ARç”¨ã®ã‚«ãƒ¡ãƒ©ã‚’ç½®ã -->
       <a-entity camera></a-entity>
 
     </a-scene>
